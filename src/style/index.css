@@ -38,3 +38,11 @@ ul {
   right: -50px;
   bottom: 27px;
 }
+
+.create-main-page {
+  padding: 0 20vw;
+}
+
+.create-main-page__user-styles {
+  display: flex;
+}
