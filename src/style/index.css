@@ -7,6 +7,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  background: #e9ebee;
 }
 
 * {
@@ -20,29 +21,89 @@ ul {
 }
 
 .header {
-  width: 100vw;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: aquamarine;
+  background: #3c5b99;
   padding: 0 20vw;
+  color: white;
 }
 
 .header__logo {
   position: relative;
 }
 
-.header__logo-signup {
+.header__logo__signup-button {
   position: absolute;
-  right: -50px;
+  right: -56px;
   bottom: 27px;
+  background: #43b82b;
+  color: white;
+  border-width: 0;
+  border-radius: 3px;
+  padding: 4px 10px;
+}
+
+.login-or-signup {
+  position: relative;
+  margin-right: 28px;
+}
+
+.login-or-signup::after {
+  content: "";
+  position: absolute;
+  right: -25px;
+  bottom: -3px;
+  border-style: solid;
+  border-width: 8px;
+  border-color: white transparent transparent transparent;
 }
 
 .create-main-page {
   padding: 0 20vw;
 }
 
+.create-main-page h3 {
+  margin-bottom: 0;
+}
+
 .create-main-page__user-styles {
+  margin: 50px 0;
   display: flex;
+  justify-content: space-between;
+}
+
+.create-main-page__user-styles p {
+  color: #abaeb4;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.create-main-page__user-styles button {
+  border-color: #abaeb415;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 4px 10px;
+}
+
+.create-main-page__user-styles__business {
+  background: white;
+  padding: 20px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.create-main-page__user-styles__community {
+  background: white;
+  width: 48%;
+  padding: 20px;
+  border: #3c5b99 solid; /* TODO delete */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
