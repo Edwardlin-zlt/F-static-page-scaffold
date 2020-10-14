@@ -101,7 +101,6 @@ ul {
   background: white;
   width: 48%;
   padding: 20px;
-  border: #3c5b99 solid; /* TODO delete */
   display: flex;
   flex-direction: column;
   justify-content: center;
