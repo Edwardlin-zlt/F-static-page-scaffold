@@ -28,3 +28,13 @@ ul {
   background: aquamarine;
   padding: 0 20vw;
 }
+
+.header__logo {
+  position: relative;
+}
+
+.header__logo-signup {
+  position: absolute;
+  right: -50px;
+  bottom: 27px;
+}
